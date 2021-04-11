@@ -1,0 +1,7 @@
+version: "3"
+services:
+  nginx-2048:
+    build: .
+    image: gcslaoli/docker-2048
+    ports:
+      - 80:80 # 宿主机端口:容器端口
